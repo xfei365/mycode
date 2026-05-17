@@ -12,12 +12,13 @@ hdvideo.py 高清放大视频
 如果因为平台不同代码运行报错，就把代码和错误信息随便丢给一个AI，修改下就行了，应该不会有大问题。
 
 - 运行rmwatermark.py 去除视频水印和 hdvideo.py 高清放大视频需要安装的依赖
-  
+
+```
 pip install torch torchvision
 pip install realesrgan
 pip install opencv-python
 pip install basicsr
 pip install numpy
 brew install ffmpeg
-
+```
 ---
