@@ -11,12 +11,12 @@ hdvideo.py 高清放大视频
 另外，处理的时候为了提高速度，我的视频没有声音，如果你的视频有声音的话，建议先用剪映等工具把音频去掉，处理好后再把声音合并上去。
 如果因为平台不同代码运行报错，就把代码和错误信息随便丢给一个AI，修改下就行了，应该不会有大问题。
 
-# 安装基础 AI 库
+运行rmwatermark.py 去除视频水印和 hdvideo.py 高清放大视频需要安装的依赖
 pip install torch torchvision
-# 安装 Real-ESRGAN 处理库
 pip install realesrgan
-# 安装 opencv
 pip install opencv-python
 pip install basicsr
 pip install numpy
 brew install ffmpeg
+
+---
